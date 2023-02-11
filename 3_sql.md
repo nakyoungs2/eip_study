@@ -25,4 +25,7 @@ ex) 데이터베이스 파일의 저장 구조/액세스 경로 결정, 레코�
 
 ### 483p - 3번 : STUDENT 테이블에 독일어과 학생 50명, 중국어과 학생 30명, 영어영문학과 학생 50명의 정보가 저장되어 있을 때, 다음 두 SQL문의 실행 결과 튜플 수는? (단, DEPT 컬럼은 학과명)  
 a : SELECT DEPT FROM STUDENT;  
-b : SELECT DISTINCT DEPT FROM STUDENT;
+b : SELECT DISTINCT DEPT FROM STUDENT;  
+> 정답 : 3번, a:130 & b:3
+a부터 보면 <STUDENT> 테이블에서 DEPT를 검색한다. 총 130개의 튜플이 들어 있으며, 다른 검색 조건이 없으므로 130명이 각각 하나의 과에 속해있기 때문에 튜플의 수는 130이다.  
+b는 <STUDENT> 테이블에서 DEPT를 검색하는데 DISTINCT 명령에 의해 중복된 학과는 하나만 포함을 시킨다. 따라서 독일어과, 중국어과, 영어영문학과 이렇게 3개의 학과가 존재하므로 튜플의 수는 3이다.
