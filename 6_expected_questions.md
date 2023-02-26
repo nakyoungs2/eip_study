@@ -15,3 +15,5 @@
 3. Prototype
 4. Decorator
 > 정답 : 1번, 싱글톤 (Singleton) 패턴의 특징이다.
+
+### 
