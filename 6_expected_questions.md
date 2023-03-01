@@ -61,4 +61,6 @@
 2. Hub & Spoke
 3. Message Bus
 4. Point-to-Point
-> 정답 : 
+> 정답 : 1번, EAI는 기업 내 각종 애플리케이션 및 플랫폼 간의 정보 전달, 연계, 통합 등 상호 연동이 가능하게 해주는 솔루션으로, 구축 유형에는 Point-to-Point, Hub & Spoke, Message Bus(ESB), Hybrid가 있다.
+***
+### 
