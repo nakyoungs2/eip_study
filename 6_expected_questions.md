@@ -56,4 +56,9 @@
 중위 순회 : 왼쪽 서브 트리 방문 -> 노드 방문 -> 오른쪽 서브 트리 방문  
 후위 순회 : 왼쪽 서브 트리 방문 -> 오른쪽 서브 트리 방문 -> 노드 방문  
 ***
-###
+### 64p - 25번 : EAI(Enterprise Application Integration)의 구축 유형으로 옳지 않은 것은?
+1. Tree
+2. Hub & Spoke
+3. Message Bus
+4. Point-to-Point
+> 정답 : 
