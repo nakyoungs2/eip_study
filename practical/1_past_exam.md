@@ -39,4 +39,13 @@ W3C(World wide web Consortium)에서 개발되었고, 웹 브라우저 간 호�
 
 #### XML(eXtensible Markup Language)
 
-### 5. 속성-값(Attribute-value Pair)으로 이루어진 
+### 5. 속성-값(Attribute-value Pair)으로 이루어진 데이터 오프젝트를 전달하기 위해 사용하는 개방형 표준 포멧이다. Ajax(Asynchronous JavaScript and XML)에서 많이 사용되고 XML(eXtensible Markup Language)을 대체하는 주요 데이터 포맷이다. 언어 독립형 데이터 포맷으로 다양한 데이터 프로그래밍 언어에서 사용하고 있는 기술은 무엇인가?
+
+#### JSON(JavaScript Object Notation)
+
+### 6. STUDENT 테이블에서 컴퓨터과 학생 50명, 인터넷과 학생 100명, 사무자동화과 학생 50명의 정보가 저장되어 있을 때, 다음 SQL문의 실행 결과에 따른 튜플의 수는? (단, DEPT 칼럼은 학과명이다.)  
+1) SELECT DERP FROM STUDENT;
+2) SELECT DISTINCT DEPT FROM STUDENT;
+3) SELECT COUNT(DISTINCT DEPR) FROM STUDENT WHERE DEPT = '컴퓨터과';
+
+#### 
