@@ -35,7 +35,7 @@
 순서 : 접속되어 있는 개체 간의 통신 속도의 조정이나 메세지의 순서 제어 등을 규정  
 
 ### 4. 다음이 설명하는 용어는 무엇인지 쓰시오.  
-### W3C(World wide web Consortium)에서 개발되었고, 웹 브라우저 간 호환이 되지 않는 문제와 SGML(Standard Generalized Markup Language)의 복잡함을 해결하기 위해 개발된 다목적 마크업 언어이다.  
+W3C(World wide web Consortium)에서 개발되었고, 웹 브라우저 간 호환이 되지 않는 문제와 SGML(Standard Generalized Markup Language)의 복잡함을 해결하기 위해 개발된 다목적 마크업 언어이다.  
 
 #### XML(eXtensible Markup Language)
 
