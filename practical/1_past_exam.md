@@ -44,8 +44,17 @@ W3C(World wide web Consortium)에서 개발되었고, 웹 브라우저 간 호�
 #### JSON(JavaScript Object Notation)
 
 ### 6. STUDENT 테이블에서 컴퓨터과 학생 50명, 인터넷과 학생 100명, 사무자동화과 학생 50명의 정보가 저장되어 있을 때, 다음 SQL문의 실행 결과에 따른 튜플의 수는? (단, DEPT 칼럼은 학과명이다.)  
-1) SELECT DERP FROM STUDENT;
+1) SELECT DEPT FROM STUDENT;
 2) SELECT DISTINCT DEPT FROM STUDENT;
-3) SELECT COUNT(DISTINCT DEPR) FROM STUDENT WHERE DEPT = '컴퓨터과';
+3) SELECT COUNT(DISTINCT DEPT) FROM STUDENT WHERE DEPT = '컴퓨터과';
 
-#### 
+#### 200, 3, 1  
+
+### 7. 스케줄링 방식에서 HRN(Highest Response ratio Next) 우선순위 계산식을 쓰시오.  
+
+#### (대기시간 + 서비스 시간) / 서비스 시간  
+HRN 스케줄링 기법은 SJF 스케줄링 기법의 약점인 긴 작업과 짧은 작업 사이의 불평등을 보완하기 위한 방법으로, 우선순위 계산식은 시스템의 응답시간이 커질수록 우선순위가 높아진다는 의미입니다.  
+HRN을 비롯하여 SJF와 FIFO, 우선순위, 기반부는 비선점형 프로세스 스케줄링에 속합니다.  
+SJF(Shortest Job First) : 프로세스의 실행시간이 가장 적은 프로세스를 먼저 실행시키는 기법입니다.  
+FIFO(First In First Out) : 각 페이지가 주기억장치에 적재될 때마다 가장 먼저 들어왔던 페이지가 가장 오래 있었기 때문에 해당 페이지를 교체하는 기법입니다.  
+우선순위 : 미리 정의한 알고리즘대로 프로세스의 우선순위를 결정하는 방식 
